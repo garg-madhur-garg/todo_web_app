@@ -61,7 +61,7 @@ function App() {
     <Router>
     <Header title="ToDo List" searchBar={false}/>
     <Switch>
-          <Route exact path="/" render={()=>{
+          <Route exact path="/todo_web_app/" render={()=>{
             return(
             <>
             <AddToDo addTodo={addTodo}/>
